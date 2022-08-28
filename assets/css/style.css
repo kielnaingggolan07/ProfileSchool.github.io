@@ -1,0 +1,177 @@
+body {
+    font-family: "Monstserrat", 'Segoe UI' 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a, a :hover {
+    text-decoration: none;
+}
+
+#topbar {
+    background-color: #15477A;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+
+.top-contact, .sosmed {
+   list-style: none;
+   padding: 0;
+}
+
+#topbar li {
+    display: inline-block;
+}
+
+#topbar li a {
+    color: #fff;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#topbar li a i {
+    color: #f2c808 ;
+    margin-right: 5px;
+}
+
+#topbar .sosmed li a {
+    padding: 0 5px;
+}
+
+#topbar .sosmed li a i{
+    color: #fff;
+}
+
+/* css untuk header */
+
+header {
+    padding: 30px 0;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand img {
+    margin-right: 20px;
+}
+
+.brand .brand-name h1 {
+    font-size: 25px;
+    color: #15477A;
+    text-transform: uppercase;
+}
+
+.brand .brand-name h3 {
+    font-size: 13px;
+    font-family: Releway, 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.pembungkus-searchbox {
+    display: flex;
+    align-items: center;
+}
+
+.searchbox {
+    width: 100%;
+}
+
+.btn.btn-primary {
+    background-color: #15477A;
+    color: #f2c808;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+/* CSS untuk menu / navbar */
+
+.navbar {
+    padding: 0;
+    border-bottom: 5px solid #f2c808;
+}
+
+.nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+
+.bg-biru {
+    background-color: #15477A!important;
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.active {
+    background-color: #f2c808;
+    color: #15477A;
+}
+
+li.nav-item.active a{
+    color: #15477A;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+/* css untuk slider hero area */
+
+#hero-area {
+    position: relative;
+}
+
+#slider-hero-nav .owl-prev,
+#slider-hero-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    border: none;
+    background-color: #15477A;
+    color: #fff;
+    outline: none; 
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+#slider-hero-nav .owl-prev{
+    left: 0;
+    border-radius: 0 50px 50px 0;
+}
+
+#slider-hero-nav .owl-next{
+    right: 0;
+    border-radius:  50px 0 0 50px;
+}
+
+#hero-area .slider-item-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+#hero-area .slider-item-content h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+#hero-area .slider-item-content p {
+    font-size: 18px;
+}
